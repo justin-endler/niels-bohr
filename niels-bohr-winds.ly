@@ -16,19 +16,18 @@ nsl = {
 }
 crOn = \override NoteHead #'style = #'cross
 crOff = \revert NoteHead #'style
-%%%%%%%%%%%% Keys'n'thangs %%%%%%%%%%%%%%%%%
 global = { \time 12/8 }
 Key = { \key c \major }
-% ############ Winds ############
+% // @todo shuffle the regsisters around until the parts are close interval-wise
 % ------ Clarinet ------
 %clar = \transpose c d \relative c'' {
-clar = \relative c'' {
+clar = \relative c {
   \Key
   \compressFullBarRests
   % rest 25 bars up front
   R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.
   % Logic bar numbers in comments
-  r2. r4. e' ~ | %30
+  r2. r4. e'' ~ | %30
   e1. ~ | %31
   e4. b ~ b2. | %32
   R1. | %33
@@ -113,13 +112,13 @@ clarinet = {
 }
 % ------ Alto Saxophone ------
 %alto = \transpose c a \relative c' {
-alto = \relative c' {
+alto = \relative c {
   \Key
   \compressFullBarRests
   % rest 25 bars up front
   R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.
   % Logic bar numbers in comments
-  r2. r4. d' ~ | %30
+  r2. r4. d'' ~ | %30
   d1. ~ | %31
   d4. a ~ a2. | %32
   R1. | %33
@@ -130,7 +129,7 @@ alto = \relative c' {
   b8 r4  r4. r2. | %38
   R1. | %39
   r2. r4. r8 a4 | %40
-  g4. ~ g4 g8 r2. | %41 // @todo stopped
+  g4. ~ g4 g8 r2. | %41
   R1. | %42
   R1. | %43
   R1. | %44
@@ -145,19 +144,19 @@ alto = \relative c' {
   d8 r4 d4. r d8 r4 | %53
   d4. r d8 r4 d4. | %54
   r4. c8 r4 c4. r | %55
-  c1. | %56 // @todo stopped
+  c1. | %56
   R1. | %57
-  r2. r4. r4 b'8 | %58
-  a8 c r r g' r c, e d r4. | %59
-  a'8 r16 g e8 g e d e d c d c b | %60
-  r16 c b8 a b a r16 g a8 g e g r16 f g8 | %61
-  f1. ~ | %62
-  f2. ~ f8 d4 ~ d4. | %63
-  a''8 r16 g e8 g e d e d c d c b | %64
-  r16 c b8 a b a r16 g a8 g e g r16 f g8 | %65
-  f1. ~ | %66
-  f2. ~ f8 d4 ~ d4. ~ | %67
-  d1. | %68
+  r2. r4. r4 g'8 | %58
+  b8 a r r b' r g, a g r4. | %59
+  r2. a8 g e g e d | %60
+  r16 e d8 c d c r16 b c8 b a b r16 a g8 | %61
+  a1. ~ | %62
+  a2. ~ a8 f4 ~ f4. | %63
+  r2. a'8 g e g e d | %64
+  r16 e d8 c d c r16 b c8 b a b r16 a g8 | %65
+  a1. ~ | %66
+  a2. ~ a8 f4 ~ f4. ~ | %67
+  f1. | %68
   R1. | %69
   R1. | %70
   R1. | %71
@@ -172,7 +171,7 @@ alto = \relative c' {
   R1. | %80
   R1. | %81
   R1. | %82
-  R1. | %83
+  R1. | %83 // @todo
   \grace e16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %84
   \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %85
   \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %86
