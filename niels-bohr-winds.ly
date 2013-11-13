@@ -35,11 +35,11 @@ clar = \relative c {
   R1. | %35
   r4. r4 b8 a c r8 r  g' r | %36
   c, e d d4. ~ d2. ~ | %37
-  d8 r4  r4. r2. | %38
-  R1. | %39
-  r2. r4. r8 e4 | %40
-  d4. ~ d4 b8 r2. | %41
-  R1. | %42
+  d1. ~ | %38
+  d8 r4  r4. r2. | %39
+  R1. | %40
+  r2. r4. r8 e4 | %41
+  d4. ~ d4 b8 r2. | %42
   R1. | %43
   R1. | %44
   R1. | %45
@@ -126,11 +126,11 @@ alto = \relative c {
   R1. | %35
   r4. r4 g8 e d r8 r  b' r | %36
   g a g b4. ~ b2. ~ | %37
-  b8 r4  r4. r2. | %38
-  R1. | %39
-  r2. r4. r8 a4 | %40
-  g4. ~ g4 g8 r2. | %41
-  R1. | %42
+  b1. ~ | %38
+  b8 r4  r4. r2. | %39
+  R1. | %40
+  r2. r4. r8 a4 | %41
+  g4. ~ g4 g8 r2. | %42
   R1. | %43
   R1. | %44
   R1. | %45
@@ -171,27 +171,27 @@ alto = \relative c {
   R1. | %80
   R1. | %81
   R1. | %82
-  R1. | %83 // @todo
-  \grace e16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %84
-  \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %85
-  \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %86
-  \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %87
-  a,1. | %88
-  g1. ~ | %89
-  g4. f4. ~ f4 c8 ~ c4. | %90
-  d4. ~ d8 e4 ~ e4 f8 ~ f4. | %91
-  a1. | %92
-  g1. ~ | %93
-  g4. f4. ~ f4 c8 ~ c4. | %94
-  d4. ~ d8 e4 ~ e4 f8 ~ f4. | %95
-  a1. | %96
-  g1. ~ | %97
-  g4. f4. ~ f4 c8 ~ c4. | %98
-  d4. ~ d8 e4 ~ e4 f8 ~ f4. | %99
-  a1. | %100
-  g1. ~ | %101
-  g4. f4. ~ f4 c8 ~ c4. | %102
-  d4. ~ d8 e4 ~ e4 f8 ~ f4. | %103
+  R1. | %83
+  \grace b16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 | %84
+  \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 | %85
+  \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 | %86
+  \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 \grace b,16 b'8 r4 | %87
+  g2. ~ g4. f | %88
+  d2. ~ d8 e4 ~ e f8 ~ | %89
+  f4. d4. ~ d4 a8 ~ a4. | %90
+  bf4. ~ bf8 c4 ~ c4 d8 ~ d4. | %91
+  g2. ~ g4. f | %92
+  d2. ~ d8 e4 ~ e f8 ~ | %93
+  f4. d4. ~ d4 a8 ~ a4. | %94
+  bf4. ~ bf8 c4 ~ c4 d8 ~ d4. | %95
+  g2. ~ g4. f | %96
+  d2. ~ d8 e4 ~ e f8 ~ | %97
+  f4. d4. ~ d4 a8 ~ a4. | %98
+  bf4. ~ bf8 c4 ~ c4 d8 ~ d4. | %99
+  g2. ~ g4. f | %100
+  d2. ~ d8 e4 ~ e f8 ~ | %101
+  f4. d4. ~ d4 a8 ~ a4. | %102
+  bf4. ~ bf8 c4 ~ c4 d8 ~ d4. | %103
 }
 altoSax = {
   \global
@@ -209,22 +209,22 @@ tenor = \relative c {
   % rest 25 bars up front
   R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.|R1.
   % Logic bar numbers in comments
-  r2. r4. e' ~ | %30
-  e1. ~ | %31
-  e4. b ~ b2. | %32
+  r2. r4. b'' ~ | %30
+  b1. ~ | %31
+  b4. g ~ g2. | %32
   R1. | %33
   R1. | %34
   R1. | %35
-  r4. r4 b8 a c r8 r  g' r | %36
-  c, e d d4. ~ d2. ~ | %37
-  d8 r4  r4. r2. | %38
-  R1. | %39
-  r2. r4. r8 e4 | %40
-  d4. ~ d4 b8 r2. | %41
-  R1. | %42
+  r4. r4 d8 f e r8 r  f' r | %36
+  e c b e4. ~ e2. ~ | %37
+  e1. ~ | %38
+  e8 r4  r4. r2. | %39
+  R1. | %40
+  r2. r4. r8 c4 | %41
+  b4. ~ b4 d8 r2. | %42
   R1. | %43
   R1. | %44
-  R1. | %45
+  R1. | %45 // @todo check registers in previous measures, adjust
   r4. r8 e4 ~ e4. b4. | %46
   g1. ~ | %47
   g1. | %48
