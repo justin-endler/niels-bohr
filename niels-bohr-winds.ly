@@ -215,7 +215,7 @@ tenor = \relative c {
   R1. | %33
   R1. | %34
   R1. | %35
-  r4. r4 d8 f e r8 r  f' r | %36
+  r4. r4 d8 c b r8 r  f' r | %36
   e c b e4. ~ e2. ~ | %37
   e1. ~ | %38
   e8 r4  r4. r2. | %39
@@ -224,20 +224,20 @@ tenor = \relative c {
   b4. ~ b4 d8 r2. | %42
   R1. | %43
   R1. | %44
-  R1. | %45 // @todo check registers in previous measures, adjust
-  r4. r8 e4 ~ e4. b4. | %46
-  g1. ~ | %47
-  g1. | %48
-  r4. ef8 r4 ef4. r | %49
-  ef8 r4 ef4. r ef8 r4 | %50
-  d4. r d8 r4 d4. | %51
-  r4. d8 r4 d4. r | %52
-  ef8 r4 ef4. r ef8 r4 | %53
-  ef4. r ef8 r4 ef4. | %54
-  r4. d8 r4 d4. r | %55
-  d1. | %56
+  R1. | %45
+  r4. r8 b'4 ~ b4. g4. | %46
+  e1. ~ | %47
+  e1. | %48
+  r4. bf8 r4 bf4. r | %49
+  bf8 r4 bf4. r bf8 r4 | %50
+  af4. r af8 r4 af4. | %51
+  r4. af8 r4 af4. r | %52
+  bf8 r4 bf4. r bf8 r4 | %53
+  af4. r af8 r4 af4. | %54
+  r4. af8 r4 af4. r | %55
+  b1. | %56
   R1. | %57
-  r2. r4. r4 b'8 | %58
+  r2. r4. r4 b'8 | %58 // @todo
   a8 c r r g' r c, e d r4. | %59
   a'8 r16 g e8 g e d e d c d c b | %60
   r16 c b8 a b a r16 g a8 g e g r16 f g8 | %61
