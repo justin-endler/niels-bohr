@@ -237,17 +237,17 @@ tenor = \relative c {
   r4. af8 r4 af4. r | %55
   b1. | %56
   R1. | %57
-  r2. r4. r4 b'8 | %58 // @todo
-  a8 c r r g' r c, e d r4. | %59
-  a'8 r16 g e8 g e d e d c d c b | %60
-  r16 c b8 a b a r16 g a8 g e g r16 f g8 | %61
-  f1. ~ | %62
-  f2. ~ f8 d4 ~ d4. | %63
-  a''8 r16 g e8 g e d e d c d c b | %64
-  r16 c b8 a b a r16 g a8 g e g r16 f g8 | %65
-  f1. ~ | %66
-  f2. ~ f8 d4 ~ d4. ~ | %67
-  d1. | %68
+  r2. r4. r4 d'8 | %58
+  c8 b r r f' r e c b r4. | %59
+  r4. a'8 g e g e d e d c | %60
+  r16 d c8 b c b r16 a b8 a g a r16 g e8 | %61
+  g1. ~ | %62
+  g2. ~ g8 e4 ~ e4. | %63
+  r4. a'8 g e g e d e d c | %60
+  r16 d c8 b c b r16 a b8 a g a r16 g e8 | %61
+  g1. ~ | %66
+  g2. ~ g8 e4 ~ e4. ~ | %67
+  e1. | %68
   R1. | %69
   R1. | %70
   R1. | %71
@@ -263,25 +263,25 @@ tenor = \relative c {
   R1. | %81
   R1. | %82
   R1. | %83
-  \grace e16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %84
-  \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %85
-  \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %86
-  \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 \grace e,16 e'8 r4 | %87
-  a,1. | %88
-  g1. ~ | %89
-  g4. f4. ~ f4 c8 ~ c4. | %90
+  \grace f16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 | %84
+  \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 | %85
+  \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 | %86
+  \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 \grace f,16 f'8 r4 | %87
+  d2. ~ d4. c4. | %88
+  a2. ~ a8 bf4 ~ bf c8 ~ | %89
+  c4. a4. ~ a4 c,8 ~ c4. | %90
   d4. ~ d8 e4 ~ e4 f8 ~ f4. | %91
-  a1. | %92
-  g1. ~ | %93
-  g4. f4. ~ f4 c8 ~ c4. | %94
+  d2. ~ d4. c4. | %92
+  a2. ~ a8 bf4 ~ bf c8 ~ | %93
+  c4. a4. ~ a4 c,8 ~ c4. | %94
   d4. ~ d8 e4 ~ e4 f8 ~ f4. | %95
-  a1. | %96
-  g1. ~ | %97
-  g4. f4. ~ f4 c8 ~ c4. | %98
+  d2. ~ d4. c4. | %96
+  a2. ~ a8 bf4 ~ bf c8 ~ | %97
+  c4. a4. ~ a4 c,8 ~ c4. | %98
   d4. ~ d8 e4 ~ e4 f8 ~ f4. | %99
-  a1. | %100
-  g1. ~ | %101
-  g4. f4. ~ f4 c8 ~ c4. | %102
+  d2. ~ d4. c4. | %100
+  a2. ~ a8 bf4 ~ bf c8 ~ | %101
+  c4. a4. ~ a4 c,8 ~ c4. | %102
   d4. ~ d8 e4 ~ e4 f8 ~ f4. | %103
 }
 tenorSax = {
