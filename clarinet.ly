@@ -6,7 +6,7 @@
   meter = "dotted quarter = 158"
 }
 
-clarinet = {
+clarinet = \transpose c d {
   \time 12/8
   \set Staff.instrumentName = #"Clarinet"
   \clef treble

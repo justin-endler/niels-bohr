@@ -6,7 +6,7 @@
   meter = "dotted quarter = 158"
 }
 
-altoSax = {
+altoSax = \transpose c a {
   \time 12/8
   \set Staff.instrumentName = #"Alto Sax"
   \clef treble

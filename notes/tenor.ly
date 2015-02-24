@@ -1,8 +1,6 @@
 \include "globals.ly"
 
 % ------ Tenor Saxophone ------
-%tenor = \transpose c a' \relative c {
-%tenor = \transpose c a \relative c {
 tenorNotes = \relative c {
   \Key
   % rest 25 bars up front
